@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+    --nav-height: 60px;
+    --pc-min-width: 992px;
+    --tablet-min-width: 768px;
+    --header-color: #272727;
+    --body-color: #e5e5e5;
+    --footer-color: #272727;
+    --banner-color: #272727;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body-color);
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    height: var(--nav-height);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--header-color);
+}
+
+main {
+    padding-top: var(--nav-height);
+}
+
+footer {
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+footer div p {
+    padding-top: 24px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 18px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav h1 {
+        color: white;
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav h1 {
+        color: white;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav h1 {
+        color: white;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.nav-menu a:before {
+    content: attr(data-item);
+    transition: 0.5s;
+    color: #fddb3a;
+    position: absolute;
+    /*right: 0;*/
+    width: 0;
+    overflow: hidden;
+}
+
+.nav-menu a:hover::before {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}

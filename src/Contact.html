@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="Contact.css">
+    <script src="../resources/js/vue.global.prod.min.js"></script>
+    <script src="Contact.js" type="module"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Website</h1>
+
+            <div class="nav-menu">
+                <a href="Home.html"
+                   data-item="Home">
+                    Home
+                </a>
+                <a href="Project.html"
+                   data-item="Project">
+                    Project
+                </a>
+                <a href="Hometown.html"
+                   data-item="Hometown_1">
+                    Hometown_1
+                </a>
+                <a href="Contact.html"
+                   data-item="Contact">
+                    Contact
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <div class="contact-row1">
+                <p class="contact-row1-title">Get in touch</p>
+            </div>
+            <div class="contact-row2">
+                <div class="contact-panel">
+                    <div id="app"
+                         class="contact-col1">
+                        <form class="info-input"
+                              name="myForm"
+                              action=""
+                              method="post"
+                              @submit="validation">
+                            <input name="Name"
+                                   placeholder="Name"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='Name'">
+
+                            <input name="Email"
+                                   placeholder="Email"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='Email'">
+
+                            <input name="Subject"
+                                   placeholder="Subject"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='Subject'">
+
+                            <textarea name="Message"
+                                      placeholder="Message"
+                                      onfocus="this.placeholder=''"
+                                      onblur="this.placeholder='Message'"
+                                      rows="4"
+                                      cols="50"></textarea>
+
+
+                            <p>{{ error }}</p>
+
+                            <button class="fill">Send</button>
+                        </form>
+
+                    </div>
+
+                    <div class="contact-col2">
+                        <p class="contact-col2-title">
+                            Contact Info
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p class="info-label">Location:</p>
+                                <p>Brookline, Boston, MA</p>
+                            </li>
+                            <li>
+                                <p class="info-label">Email:</p>
+                                <p>billliu@bu.edu</p>
+                            </li>
+                            <li>
+                                <p class="info-label">Phone:</p>
+                                <p>+1-857-376-1993</p>
+                            </li>
+                            <li>
+                                <p class="info-label">Github:</p>
+                                <a href="https://github.com/D4r3E-1v1l">https://github.com/D4r3E-1v1l</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="contact-row3">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6431.481025056724!2d-71.10247756424829!3d42.34578545517561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379f063e53817%3A0x2b346e00e0a3bec8!2sBoston%20University!5e0!3m2!1sen!2sus!4v1668401947729!5m2!1sen!2sus"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div>
+            <h4>Welcome to My Site</h4>
+            <p>© 2022. Shiyu Liu.  All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

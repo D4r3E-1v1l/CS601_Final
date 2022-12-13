@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="Hometown.css">
+    <script src="../resources/js/vue.global.prod.min.js"></script>
+    <script src="Hometown_1.js" type="module"></script>
+    <script src="Hometown_2.js" type="module"></script>
+    <script src="Hometown_3.js" type="module"></script>
+    <script src="Hometown_4.js" type="module"></script>
+    <script src="Hometown_5.js" type="module"></script>
+    <title>Hometown</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Website</h1>
+
+            <div class="nav-menu">
+                <a href="Home.html"
+                   data-item="Home">
+                    Home
+                </a>
+                <a href="Project.html"
+                   data-item="Project">
+                    Project
+                </a>
+                <a href="Hometown.html"
+                   data-item="Hometown_1">
+                    Hometown_1
+                </a>
+                <a href="Contact.html"
+                   data-item="Contact">
+                    Contact
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <p>
+                Beijing is my hometown, and it is in the north of China. Beijing is the capital of China.
+                To a certain degree, Beijing is one of the represent of China. There are many beautiful
+                places of interests all around the city., such as the forbidden city, the summer palace,
+                the great wall, etc... Here I will introduce the 5 best must-see attractions in Beijing.
+            </p>
+
+
+            <h3>The Must-See Attractions in Beijing</h3>
+
+            <div class="styled-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Top
+                            </th>
+                            <th>
+                                Attractions
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Top historical sights
+                            </td>
+                            <td>
+                                the Forbidden City, the Summer Palace, The Temple of Heaven
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Top cultural sights
+                            </td>
+                            <td>
+                                Tian'anmen Square
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Top modern sights
+                            </td>
+                            <td>
+                                798 Art Zone
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+
+        <div class="attractions-list">
+            <h4 class="attractions-list-item-title">The Forbidden City</h4>
+
+            <div id="photo_1" class="attractions-list-item-img">
+                <button @click="pre">left</button>
+                <img :alt="photoes_1[index_1].alt"
+                     :src=photoes_1[index_1].src>
+                <button @click="next">right</button>
+            </div>
+
+            <p>
+                The Forbidden City was for almost five centuries the palatial heart of China. Constructed in 1420,
+                it is China's best-preserved imperial palace, and the largest ancient palatial structure in the world.
+                It is also a magnificent treasure trove, which holds more than a million rare and valuable works of art.
+                The collection includes ceramics, paintings, calligraphy, bronzes, timepieces, jade pieces, ancient
+                books, and historical documents. There, you can witness the grand architecture, learn about China’s
+                royal culture inside the city walls, and appreciate the precious treasures of the royal court.
+            </p>
+
+            <p>
+                How to make the most of your time in this huge imperial palace complex? Visiting halls along the
+                central axis from The Meridian Gate to the Gate of Devine Might is the most common route. Some of
+                the most important buildings are located on this axis, such as the Hall of Supreme Harmony, Hall
+                of Central Harmony, Hall of Preserving Harmony, and Palace of Heavenly Purity.
+            </p>
+
+            <p>
+                However, you might
+                want to travel with us for a deeper Forbidden City exploration. Rather than simply taking you round
+                to see the buildings, and giving you textbook recitals or routine guide presentations, we attempt to
+                bring the emperors’ lives to life for you, through fascinating stories with original iPad pictures and
+                videos. You will be taken to see places that you would never find by yourself or on a standard tour.
+            </p>
+
+
+            <h4 class="attractions-list-item-title">The Summer Palace</h4>
+
+            <div id="photo_2" class="attractions-list-item-img">
+                <button @click="pre">left</button>
+                <img :alt="photoes_2[index_2].alt"
+                     :src=photoes_2[index_2].src>
+                <button @click="next">right</button>
+            </div>
+
+            <p>
+                The Summer Palace is 15 kilometers (9 miles) from downtown Beijing. It was a summer retreat for the
+                royal family of the Qing Dynasty (1644–1912). It is also the largest and best-preserved imperial garden
+                in China, with famous landscaped views and cultural points of interest. The Summer Palace has greatly
+                influenced Chinese horticulture and landscape gardening.
+            </p>
+
+            <p>
+                The Long Corridor in the Summer Palace gardens is the most notable sight, with every on beam decorated
+                with colorful paintings — more than 14,000 in total. You can stroll around it and listen to tales
+                described by the paintings.
+            </p>
+
+
+            <h4 class="attractions-list-item-title">The Temple of Heaven</h4>
+
+            <div id="photo_3" class="attractions-list-item-img">
+                <button @click="pre">left</button>
+                <img :alt="photoes_3[index_3].alt"
+                     :src=photoes_3[index_3].src>
+                <button @click="next">right</button>
+            </div>
+
+            <p>
+                The Temple of Heaven is an imperial worship site where emperors of the Ming and Qing dynasties took
+                part in annual ceremonies to pray for a good harvest for the next year. The annual sacrificial
+                ceremonies at the Temple of Heaven were the emperors' most important religious and political activities.
+            </p>
+
+            <p>
+                The Circular Mound Altar and The Hall of Prayer for Good Harvests are the must-see highlights, you
+                can learn about the culture of heaven worship, architectural geomancy, and the medieval China’s
+                sacrificial rites.
+            </p>
+
+            <p>
+                If you’re travel with kids, a visit to the Echo Wall is strongly recommended. Your kid(s) will be
+                surprised by the magic of the echo. If you say something to him/her quietly at one end of the wall,
+                they should hear your message even though standing 100–150 meters away.
+            </p>
+
+            <p>
+                Nowadays, the Temple of Heaven stands in a public park that is full of life. In the morning lots of
+                local elderly people meet there to sing, exercise and do tai chi. The park is south of Central Beijing,
+                about 15 minutes south of the Forbidden City by car.
+            </p>
+
+
+            <h4 class="attractions-list-item-title">Tian'anmen Square</h4>
+
+            <div class="attractions-list-item-img">
+                <img alt="The Temple of Heaven"
+                     src="../resources/img/Tian'anmenSquare.png">
+            </div>
+
+            <p>
+                Tian'anmen Square is the largest famous city square. In the center of Beijing, it sits to the south
+                of the Forbidden City. Tian'anmen Square is very symbolic for Chinese people, as it was the site of
+                several key events in Chinese history, such as the founding of the People's Republic of China in 1949.
+            </p>
+
+            <p>
+                Nowadays, it is still the most significant square in China, where grand ceremonies and National Day
+                anniversary parades are held.
+            </p>
+
+            <p>
+                Each morning, the flag-raising ceremony is held at sunrise, which is open to the public most of the
+                time. On the night before Chinese National Day, many Chinese even sit up near the square for a whole
+                night just to watch the flag being raised the next morning. Join us to witness this solemn ceremony
+                in Beijing.
+            </p>
+
+
+            <h4 class="attractions-list-item-title">798 Art Zone</h4>
+
+            <div class="attractions-list-item-img">
+                <img alt="798 Art Zone"
+                     src="../resources/img/798ArtZone.png"
+                     width="500"
+                     height="270">
+            </div>
+
+            <p>
+                Converted from an old factory compound, nowadays this zone has become synonymous with art and
+                originality. There are a range of contemporary art galleries, stylish boutiques, creatively designed
+                architectures, and cafes. No matter whether you are an art enthusiast or not, 798 Art District will
+                show you a different Beijing.
+            </p>
+
+            <p>
+                Top art exhibitions and fashion shows are frequently held in 798, where there are more than 500 art
+                studios from all over the world. Ullens Center for Contemporary Art is a must-see highlight in the
+                Zone. An exciting collection of local and international artists exhibit in an atmospheric three-story
+                Bauhaus structure.
+            </p>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h4>Welcome to My Site</h4>
+            <p>© 2022. Shiyu Liu.  All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
