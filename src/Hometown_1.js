@@ -40,19 +40,4 @@ const photoes_1 = [
     }
 ]
 
-const photoes_2 = [
-    {
-        src: "../resources/img/thesummerpalace/1.png",
-        alt: "The Forbidden City 1"
-    },
-    {
-        src: "../resources/img/thesummerpalace/2.png",
-        alt: "The Forbidden City 2"
-    },
-    {
-        src: "../resources/img/thesummerpalace/3.png",
-        alt: "The Forbidden City 3"
-    }
-]
-
 createApp(Hometown_1).mount("#photo_1")

@@ -1,28 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6160b4b2-24ff-402a-84a1-e40b122bd516" name="Changes" comment="" />
+    <list default="true" id="6160b4b2-24ff-402a-84a1-e40b122bd516" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/img/798artzone/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/798artzone/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/thesummerpalace/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/thesummerpalace/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/thetempleofheaven/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/thetempleofheaven/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/tian'anmensquare/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/tian'anmensquare/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hometown_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hometown_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Me.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/798ArtZone.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/798artzone/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/img/Tian'anmenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/tian'anmensquare/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hometown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hometown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hometown.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hometown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hometown_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hometown_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2IqU3mcvzQ1Z836LvcnbO9vWyn0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CS601_O1/Assignments_Done/CS601_Final/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CS601_O1\Assignments_Done\CS601_Final\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CS601_O1\Assignments_Done\CS601_Final\resources\img\798artzone" />
+      <recent name="D:\CS601_O1\Assignments_Done\CS601_Final\resources\img\tian'anmensquare" />
+      <recent name="D:\CS601_O1\Assignments_Done\CS601_Final\resources\img\1" />
+      <recent name="D:\CS601_O1\Assignments_Done\CS601_Final" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,10 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670908409914</updated>
       <workItem from="1670908411404" duration="14000" />
+      <workItem from="1670908523673" duration="6909000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

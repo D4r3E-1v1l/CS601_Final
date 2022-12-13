@@ -28,8 +28,12 @@
                     Project
                 </a>
                 <a href="Hometown.html"
-                   data-item="Hometown_1">
-                    Hometown_1
+                   data-item="Hometown">
+                    Hometown
+                </a>
+                <a href="Me.html"
+                   data-item="Me">
+                    Me
                 </a>
                 <a href="Contact.html"
                    data-item="Contact">
@@ -99,10 +103,10 @@
             <h4 class="attractions-list-item-title">The Forbidden City</h4>
 
             <div id="photo_1" class="attractions-list-item-img">
-                <button @click="pre">left</button>
-                <img :alt="photoes_1[index_1].alt"
+                <button class="leftbtn" @click="pre">&lt;</button>
+                <img :alt=photoes_1[index_1].alt
                      :src=photoes_1[index_1].src>
-                <button @click="next">right</button>
+                <button class="rightbtn" @click="next">&gt;</button>
             </div>
 
             <p>
@@ -133,10 +137,10 @@
             <h4 class="attractions-list-item-title">The Summer Palace</h4>
 
             <div id="photo_2" class="attractions-list-item-img">
-                <button @click="pre">left</button>
-                <img :alt="photoes_2[index_2].alt"
+                <button class="leftbtn" @click="pre">&lt;</button>
+                <img :alt=photoes_2[index_2].alt
                      :src=photoes_2[index_2].src>
-                <button @click="next">right</button>
+                <button class="rightbtn" @click="next">&gt;</button>
             </div>
 
             <p>
@@ -156,10 +160,10 @@
             <h4 class="attractions-list-item-title">The Temple of Heaven</h4>
 
             <div id="photo_3" class="attractions-list-item-img">
-                <button @click="pre">left</button>
-                <img :alt="photoes_3[index_3].alt"
+                <button class="leftbtn" @click="pre">&lt;</button>
+                <img :alt=photoes_3[index_3].alt
                      :src=photoes_3[index_3].src>
-                <button @click="next">right</button>
+                <button class="rightbtn" @click="next">&gt;</button>
             </div>
 
             <p>
@@ -189,9 +193,11 @@
 
             <h4 class="attractions-list-item-title">Tian'anmen Square</h4>
 
-            <div class="attractions-list-item-img">
-                <img alt="The Temple of Heaven"
-                     src="../resources/img/Tian'anmenSquare.png">
+            <div id="photo_4" class="attractions-list-item-img">
+                <button class="leftbtn" @click="pre">&lt;</button>
+                <img :alt=photoes_4[index_4].alt
+                     :src=photoes_4[index_4].src>
+                <button class="rightbtn" @click="next">&gt;</button>
             </div>
 
             <p>
@@ -215,11 +221,11 @@
 
             <h4 class="attractions-list-item-title">798 Art Zone</h4>
 
-            <div class="attractions-list-item-img">
-                <img alt="798 Art Zone"
-                     src="../resources/img/798ArtZone.png"
-                     width="500"
-                     height="270">
+            <div id="photo_5" class="attractions-list-item-img">
+                <button class="leftbtn" @click="pre">&lt;</button>
+                <img :alt=photoes_5[index_5].alt
+                     :src=photoes_5[index_5].src>
+                <button class="rightbtn"@click="next">&gt;</button>
             </div>
 
             <p>
